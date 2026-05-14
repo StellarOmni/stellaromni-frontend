@@ -1,4 +1,4 @@
-import { Header } from "@/components/header"
+import { HeaderEnhanced } from "@/components/header-enhanced"
 import { Footer } from "@/components/footer"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -66,7 +66,7 @@ const quickLinks = [
 export default function DocsPage() {
   return (
     <div className="flex min-h-screen flex-col">
-      <Header />
+      <HeaderEnhanced />
       <main className="flex-1 py-8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           {/* Header */}

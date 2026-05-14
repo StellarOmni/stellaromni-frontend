@@ -1,4 +1,4 @@
-import { Header } from "@/components/header"
+import { HeaderEnhanced } from "@/components/header-enhanced"
 import { Footer } from "@/components/footer"
 import { 
   HeroSection, 
@@ -10,7 +10,7 @@ import {
 export default function HomePage() {
   return (
     <div className="flex min-h-screen flex-col">
-      <Header />
+      <HeaderEnhanced />
       <main className="flex-1">
         <HeroSection />
         <FeaturesSection />
